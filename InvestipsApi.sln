@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestipsApi", "InvestipsApi.csproj", "{C69F9550-C592-4F5E-ABD2-4BE95FDACBDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69F9550-C592-4F5E-ABD2-4BE95FDACBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69F9550-C592-4F5E-ABD2-4BE95FDACBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69F9550-C592-4F5E-ABD2-4BE95FDACBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69F9550-C592-4F5E-ABD2-4BE95FDACBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {881BD54A-613C-42A5-9A3D-0FFECE67C76C}
+	EndGlobalSection
+EndGlobal
