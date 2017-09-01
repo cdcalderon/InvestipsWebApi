@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using InvestipsApi.Core;
+using InvestipsApi.Core.Models;
 using InvestipsApi.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,10 +33,10 @@ namespace InvestipsApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddScoped<IPorfolioRepository, PorfolioRepository>();
-            //services.AddScoped<ISecurityRepository, SecurityRepository>();
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
-            //services.AddAutoMapper();
+            services.AddScoped<IPortfolioRepository, PortfolioRepository>();
+            services.AddScoped<ISecurityRepository, SecurityRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddAutoMapper();
             services.AddDbContext<InvestipsDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
 
             // Add framework services.
