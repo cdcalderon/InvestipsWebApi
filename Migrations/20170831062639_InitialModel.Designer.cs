@@ -37,7 +37,7 @@ namespace InvestipsApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Porfolios");
+                    b.ToTable("Portfolios");
                 });
 
             modelBuilder.Entity("InvestipsApi.Core.Models.PortfolioSecurity", b =>

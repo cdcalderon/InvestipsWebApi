@@ -10,7 +10,7 @@ namespace InvestipsApi.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Porfolios",
+                name: "Portfolios",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -50,7 +50,7 @@ namespace InvestipsApi.Migrations
                     table.ForeignKey(
                         name: "FK_PortfolioSecurity_Porfolios_PortfolioId",
                         column: x => x.PortfolioId,
-                        principalTable: "Porfolios",
+                        principalTable: "Portfolios",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -73,7 +73,7 @@ namespace InvestipsApi.Migrations
                 name: "PortfolioSecurity");
 
             migrationBuilder.DropTable(
-                name: "Porfolios");
+                name: "Portfolios");
 
             migrationBuilder.DropTable(
                 name: "Securities");
