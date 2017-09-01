@@ -28,6 +28,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Investips.Core\Investips.Core.csproj" />
+    <ProjectReference Include="..\Investips.Persistence\Investips.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>
