@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Investips.Core;
+using Investips.Core.Models;
 using InvestipsApi.Controllers.Resources;
-using InvestipsApi.Core;
-using InvestipsApi.Core.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

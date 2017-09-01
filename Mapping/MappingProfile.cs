@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Investips.Core.Models;
 using InvestipsApi.Controllers.Resources;
-using InvestipsApi.Core.Models;
 
 namespace InvestipsApi.Mapping
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using InvestipsApi.Core.Models;
+using Investips.Core;
 
 namespace InvestipsApi.Persistence
 {
